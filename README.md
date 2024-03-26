@@ -26,7 +26,7 @@ View all notes.
 
 
 ## Acknowledgments
-    <a href="https://reactjs.org">React</a>
+<a href="https://reactjs.org">React</a>
     Express.js
     MongoDB
     Axios
