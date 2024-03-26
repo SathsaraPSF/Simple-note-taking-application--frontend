@@ -5,6 +5,8 @@ import React, { useEffect, useState } from "react";
 import logo from './assets/note.png';
 import AddNote from './assets/AddNote.png';
 import allnotes from './assets/allnotes.png';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 function App() {
@@ -38,7 +40,16 @@ function App() {
     event.preventDefault();
     // Validation checks
     if (title.length == 0 || note.length == 0 || date.length == 0) {
-      alert("All feilds are required")
+      toast.warn('All the feilds are required! 🛑', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
     }
 
     try {
@@ -49,7 +60,16 @@ function App() {
         date: date
       });
       // Success message
-      alert("Note added Successfully");
+      toast.success('Note added successful! 😍', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
       // Clearing input fields and reloading notes
       setId("");
       setNote("");
@@ -72,7 +92,16 @@ function App() {
     await axios.delete(baseURL + id);
 
     // Success message
-    alert("Note deleted Successfully");
+    toast.success('Note deleted successful!', {
+      position: "top-right",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
     // Clearing input fields and reloading notes
     setId("");
     setNote("");
@@ -104,7 +133,16 @@ function App() {
         }
       );
       // Success message
-      alert("Note Updated");
+      toast.success('Note updated successful!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
       // Clearing input fields and reloading notes
       setId("");
       setNote("");
@@ -215,6 +253,7 @@ function App() {
         </div>
       </div>
 
+      <ToastContainer />
     </div>
   )
 }
