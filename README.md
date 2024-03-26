@@ -21,10 +21,8 @@ View all notes.
     React Toastify for displaying notifications
 
 ## Deployment 
-    Frontend   - 
-Vercel https://vercel.com/sathsarapsfs-projects/simple-note-taking-application 
-    BackendAPI - 
-Render https://render.com
+    Frontend   - Vercel
+    BackendAPI - Render
 
 
 ## Acknowledgments
@@ -33,4 +31,6 @@ Render https://render.com
 <a href="https://nodejs.org/en">Node.js</a>
 <a href="https://www.mongodb.com/">MongoDB</a>  
 <a href="https://axios-http.com/">Axios</a>  
-<a href="https://github.com/fkhadra/react-toastify">React Toastify</a>   
+<a href="https://github.com/fkhadra/react-toastify">React Toastify</a> 
+<a href="https://render.com]">Render.com</a> 
+  
