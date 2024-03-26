@@ -42,6 +42,6 @@ A step by step series of examples that tell you how to get a development environ
 
 The backend API is deployed on Render.com, which offers a platform for hosting web services with features like continuous deployment from your repository.
 
-To access the live API, visit: [\[API URL on Render.com\]](https://simple-note-taking-application-backend-1.onrender.com)
+To access the live API, visit: https://dashboard.render.com/web/srv-co17a0ol5elc738q397g
 
 For more information on deploying to Render.com, refer to their official documentation: https://docs.render.com
