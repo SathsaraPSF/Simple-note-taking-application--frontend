@@ -1,31 +1,53 @@
-# Note Taking Application
+# Note-Taking Application
 
-This is a simple note-taking application built using React.js for the frontend and Express.js with MongoDB for the backend. Users can add, edit, and delete notes, which are stored in a MongoDB database.
+This project is a simple note-taking application that allows users to add, view, edit, and delete notes through a web interface.
 
-## Live Demo
-You can access the live demo of the application https://simple-note-taking-application.vercel.app
+## Project Objective
 
-## Featurs 
-Add new notes with a title, content, and date.
-Edit existing notes.
-Delete notes.
-View all notes.
+The goal of this project is to build a full-stack web application using the MERN stack. This application will serve as a platform for users to manage their personal notes.
 
 ## Technologies Used
-    React.js
-    Express.js
-    Node.js
-    MongoDB
-    Axios for making HTTP requests
-    API Test using Insomnia 8.6.1
-    React Toastify for displaying notifications
 
-## Deployment 
-    Frontend   - Vercel
-    BackendAPI - Render
+- **Frontend**: React.js
+- **Backend**: Node.js with Express.js
+- **Database**: MongoDB
+- **Deployment**: Render for backend/API, Vercel for frontend
+
+## Features
+
+- Create, view, edit, and delete notes
+- Responsive web design
+- Intuitive user interface
+
+## Installation
+
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+- forntend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--frontend.git]
+- Backend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git]
+
+
+2. Install dependencies:
+    npm install
+
+## Key Dependencies
+
+- **React toastify**: Provides the custome alerts.
+- **Axios**: Used for making HTTP requests to the backend service.
+- **Tailwind CSS**: A utility-first CSS framework for styling the application.
+- **Font Awesome**: Supplies icons used across the application.
+
+3. Start the development server:
+    npm run dev
+
+## Deployment
+
+You can access the live demo of the application https://simple-note-taking-application.vercel.app
 
 ## Contributing
-  ### Contributions are welcome! Feel free to open issues or submit pull requests.
+
+Contributions are welcome. Please open an issue or submit a pull request with your changes.
 
 
 ## Acknowledgments
