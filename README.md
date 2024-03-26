@@ -36,7 +36,7 @@ A step by step series of examples that tell you how to get a development environ
 
 3. Start the server:
 
-    npm start
+            npm start
 
 ## Deployment
 
