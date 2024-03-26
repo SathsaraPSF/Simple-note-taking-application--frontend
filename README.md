@@ -24,6 +24,9 @@ View all notes.
     Frontend   - Vercel
     BackendAPI - Render
 
+## Contributing
+  ### Contributions are welcome! Feel free to open issues or submit pull requests.
+
 
 ## Acknowledgments
 <a href="https://reactjs.org">React</a>
