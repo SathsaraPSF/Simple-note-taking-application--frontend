@@ -6,10 +6,10 @@ This is a simple note-taking application built using React.js for the frontend a
 You can access the live demo of the application https://simple-note-taking-application.vercel.app
 
 ## Featurs 
-    Add new notes with a title, content, and date.
-    Edit existing notes.
-    Delete notes.
-    View all notes.
+Add new notes with a title, content, and date.
+Edit existing notes.
+Delete notes.
+View all notes.
 
 ## Technologies Used
     React.js
