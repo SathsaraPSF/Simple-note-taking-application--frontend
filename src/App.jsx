@@ -37,15 +37,10 @@ function App() {
   async function saveNote(event) {
     event.preventDefault();
     // Validation checks
-    if (title.length == 0) {
-      alert("Title is required")
+    if (title.length == 0 || note.length == 0 || date.length == 0) {
+      alert("All feilds are required")
     }
-    if (note.length == 0) {
-      alert("Note is required")
-    }
-    if (date.length == 0) {
-      alert(" Date is required")
-    }
+
     try {
       // API request to save note
       await axios.post(baseURL, {
