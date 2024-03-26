@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(60, 3, 54, 1) 0%, rgba(33, 6, 89, 1) 0%, rgba(20, 8, 106, 1) 0%, rgba(186, 38, 159, 1) 0%, rgba(139, 0, 255, 1) 100%);
+}
+
+::-webkit-scrollbar {
+  background: linear-gradient(360deg, rgba(2, 0, 36, 1) 0%, rgba(60, 3, 54, 1) 0%, rgba(33, 6, 89, 1) 0%, rgba(20, 8, 106, 1) 0%, rgba(139, 0, 255, 1) 0%, rgba(186, 38, 159, 1) 100%);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(43, 3, 75);
+  border-radius: 30px;
+  width: 10px;
+}
+
+.btn-add {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(60, 3, 54, 1) 0%, rgba(33, 6, 89, 1) 0%, rgba(20, 8, 106, 1) 0%, rgba(186, 38, 159, 1) 0%, rgba(139, 0, 255, 1) 100%);
+}
+
+.btn-update {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(60, 3, 54, 1) 0%, rgba(33, 6, 89, 1) 0%, rgba(20, 8, 106, 1) 0%, rgba(139, 0, 255, 1) 0%, rgba(186, 38, 159, 1) 100%);
+}
+
+.btn-add:hover {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(60, 3, 54, 1) 0%, rgba(33, 6, 89, 1) 0%, rgba(20, 8, 106, 1) 0%, rgba(139, 0, 255, 1) 0%, rgba(186, 38, 159, 1) 100%);
+}
+
+.btn-update:hover {
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(60, 3, 54, 1) 0%, rgba(33, 6, 89, 1) 0%, rgba(20, 8, 106, 1) 0%, rgba(186, 38, 159, 1) 0%, rgba(139, 0, 255, 1) 100%);
+}
