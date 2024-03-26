@@ -24,14 +24,16 @@ The goal of this project is to build a full-stack web application using the MERN
 To set up the project locally, follow these steps:
 
 1. Clone the repository:
-- forntend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--frontend.git]
-- Backend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git]
+
+        forntend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--frontend.git]
+        Backend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git]
 
 
 2. Install dependencies:
-    npm install
+    
+        npm install
 
-## Key Dependencies
+### Key Dependencies
 
 - **React toastify**: Provides the custome alerts.
 - **Axios**: Used for making HTTP requests to the backend service.
@@ -39,7 +41,8 @@ To set up the project locally, follow these steps:
 - **Font Awesome**: Supplies icons used across the application.
 
 3. Start the development server:
-    npm run dev
+    
+        npm run dev
 
 ## Deployment
 
