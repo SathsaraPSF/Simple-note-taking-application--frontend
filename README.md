@@ -24,11 +24,9 @@ View all notes.
     Frontend   - Vercel[https://vercel.com/sathsarapsfs-projects/simple-note-taking-application]
     BackendAPI - Render[https://render.com]
 
-## Contributors
-    <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors"><img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/></a>
 
 ## Acknowledgments
-    React
+    <a href="https://reactjs.org">React</a>
     Express.js
     MongoDB
     Axios
