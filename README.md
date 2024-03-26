@@ -25,9 +25,7 @@ You can access the live demo of the application https://simple-note-taking-appli
     BackendAPI - Render[https://render.com]
 
 ## Contributors
-    <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors">
-  <img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/>
-</a>
+    <a href = "https://github.com/Tanu-N-Prabhu/Python/graphs/contributors"><img src = "https://contrib.rocks/image?repo = GitHub_username/repository_name"/></a>
 
 ## Acknowledgments
     React
