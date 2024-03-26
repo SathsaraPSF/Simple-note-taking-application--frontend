@@ -18,7 +18,6 @@ function App() {
   const [notes, setNotes] = useState([]);
 
   // Base URL for API requests
-  // const baseURL = 'http://127.0.0.1:5001/note-taking-app-cloud-function/us-central1/app/api/note';
   const baseURL = 'https://simple-note-taking-application-backend-1.onrender.com/api/note/';
 
 
