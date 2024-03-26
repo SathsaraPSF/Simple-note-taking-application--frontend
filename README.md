@@ -25,8 +25,8 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
 
-        forntend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--frontend.git]
-        Backend - git clone [https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git]
+        forntend - git clone https://github.com/SathsaraPSF/Simple-note-taking-application--frontend.git
+        Backend - git clone https://github.com/SathsaraPSF/Simple-note-taking-application--backend.git
 
 
 2. Install dependencies:
