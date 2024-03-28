@@ -8,7 +8,7 @@ The goal of this project is to build a full-stack web application using the MERN
 
 ## Technologies Used
 
-- **Frontend**: React.js
+- **Frontend**: React.js / Tailwind Css
 - **Backend**: Node.js with Express.js
 - **Database**: MongoDB
 - **Deployment**: Render for backend/API, Vercel for frontend
